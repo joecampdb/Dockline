@@ -32,9 +32,15 @@ CLEAN_PDB_DIR = os.path.join(BASE_DIR, "pdb_clean")
 
 # Known complex -> clean PDB filename
 KNOWN_PROTEINS = {
-    "aripiprazole_5HT1A": "5HT1A_7E2Z_clean.pdb",
-    "aripiprazole_5HT2A": "5HT2A_7VOE_clean.pdb",
-    "aripiprazole_DRD2": "DRD2_6CM4_clean.pdb",
+    # Caffeine targets
+    "caffeine_A2A": "caffeine_A2A_clean.pdb",
+    "caffeine_A1": "caffeine_A1_clean.pdb",
+    # Imatinib targets
+    "imatinib_Abl": "imatinib_Abl_clean.pdb",
+    "imatinib_cKIT": "imatinib_cKIT_clean.pdb",
+    # Quercetin targets
+    "quercetin_PI3K": "quercetin_PI3K_clean.pdb",
+    "quercetin_Pim1": "quercetin_Pim1_clean.pdb",
 }
 
 _protein_cache: dict = {}

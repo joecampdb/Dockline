@@ -57,8 +57,8 @@ COPY static/ static/
 # Create runtime directories
 RUN mkdir -p results uploads pdb_clean pdb_raw
 
-# Copy example data if available
-COPY aripiprazole.sdf ./
+# Copy example ligand files
+COPY caffeine.sdf imatinib.sdf quercetin.sdf ./
 
 # Expose port
 EXPOSE 5000

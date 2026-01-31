@@ -107,7 +107,7 @@ Open http://127.0.0.1:5000 in your browser.
 
 1. Enter a **Job Name** (e.g., `aspirin_COX2`)
 2. Provide a **Protein**:
-   - Enter a PDB ID (e.g., `7E2Z`) - will be downloaded from RCSB
+   - Enter a PDB ID (e.g., `5MZP`) - will be downloaded from RCSB
    - Or upload a `.pdb` file
 3. Provide a **Ligand**:
    - Enter a SMILES string (e.g., `CC(=O)Oc1ccccc1C(=O)O`)
