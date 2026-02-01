@@ -17,6 +17,8 @@ A web-based GUI for [DiffDock](https://github.com/gcorso/DiffDock) molecular doc
 | Caffeine | Blue | Adenosine A2A, A1 receptors |
 | Imatinib | Orange | c-Abl, c-KIT kinases |
 | Quercetin | Green | PI3K, Pim1 kinases |
+| Biotin | Pink | Streptavidin |
+| Serotonin | Purple | 5-HT1A, 5-HT2A, 5-HT2B receptors |
 
 ## Features
 
@@ -30,7 +32,7 @@ A web-based GUI for [DiffDock](https://github.com/gcorso/DiffDock) molecular doc
 
 ## Screenshots
 
-*Coming soon*
+![Dockline Screenshot](logo/screenshotdockline.png)
 
 ## Requirements
 
