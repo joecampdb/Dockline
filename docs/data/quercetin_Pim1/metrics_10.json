@@ -1,0 +1,30 @@
+{
+  "confidence": -1.61,
+  "rmsd_to_crystal": 1.41,
+  "hbonds": [
+    {
+      "protein_residue": "ASP128",
+      "protein_atom": "OD2",
+      "distance": 2.88
+    },
+    {
+      "protein_residue": "GLU121",
+      "protein_atom": "O",
+      "distance": 2.93
+    }
+  ],
+  "salt_bridges": [],
+  "hydrophobic_contacts": 13,
+  "close_contacts": [
+    "ALA65",
+    "ARG122",
+    "ASP128",
+    "ASP131",
+    "GLU121",
+    "GLU171",
+    "ILE185",
+    "LEU174",
+    "VAL126"
+  ],
+  "buried_surface_area": 315.0
+}

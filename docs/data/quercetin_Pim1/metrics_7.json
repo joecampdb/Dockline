@@ -1,0 +1,22 @@
+{
+  "confidence": -0.45,
+  "rmsd_to_crystal": 1.42,
+  "hbonds": [],
+  "salt_bridges": [],
+  "hydrophobic_contacts": 11,
+  "close_contacts": [
+    "ALA65",
+    "ARG122",
+    "GLU121",
+    "GLY45",
+    "ILE185",
+    "LEU120",
+    "LEU174",
+    "LEU44",
+    "PHE49",
+    "PRO123",
+    "SER46",
+    "VAL52"
+  ],
+  "buried_surface_area": 270.0
+}

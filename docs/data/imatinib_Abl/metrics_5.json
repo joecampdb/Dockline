@@ -1,0 +1,76 @@
+{
+  "confidence": -0.41,
+  "rmsd_to_crystal": 0.56,
+  "hbonds": [
+    {
+      "protein_residue": "GLU286",
+      "protein_atom": "OE2",
+      "distance": 2.77
+    },
+    {
+      "protein_residue": "ASP381",
+      "protein_atom": "N",
+      "distance": 3.27
+    },
+    {
+      "protein_residue": "ASP381",
+      "protein_atom": "O",
+      "distance": 3.26
+    },
+    {
+      "protein_residue": "ILE360",
+      "protein_atom": "O",
+      "distance": 3.23
+    },
+    {
+      "protein_residue": "HIS361",
+      "protein_atom": "O",
+      "distance": 3.14
+    },
+    {
+      "protein_residue": "THR315",
+      "protein_atom": "OG1",
+      "distance": 3.19
+    },
+    {
+      "protein_residue": "MET318",
+      "protein_atom": "N",
+      "distance": 2.67
+    },
+    {
+      "protein_residue": "MET318",
+      "protein_atom": "O",
+      "distance": 3.48
+    }
+  ],
+  "salt_bridges": [
+    {
+      "residue": "GLU286",
+      "distance": 2.77
+    }
+  ],
+  "hydrophobic_contacts": 25,
+  "close_contacts": [
+    "ALA269",
+    "ALA380",
+    "ARG362",
+    "ASP381",
+    "GLU286",
+    "GLY321",
+    "HIS361",
+    "ILE313",
+    "ILE360",
+    "LEU370",
+    "LYS271",
+    "MET290",
+    "MET318",
+    "PHE317",
+    "PHE382",
+    "THR315",
+    "TYR253",
+    "VAL256",
+    "VAL289",
+    "VAL299"
+  ],
+  "buried_surface_area": 495.0
+}

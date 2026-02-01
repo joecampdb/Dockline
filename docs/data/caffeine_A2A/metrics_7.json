@@ -1,10 +1,28 @@
 {
   "confidence": -0.38,
-  "rmsd_to_crystal": null,
-  "hbonds": [],
+  "rmsd_to_crystal": 0.09,
+  "hbonds": [
+    {
+      "protein_residue": "ASN253",
+      "protein_atom": "ND2",
+      "distance": 3.25
+    },
+    {
+      "protein_residue": "ASN253",
+      "protein_atom": "OD1",
+      "distance": 2.9
+    }
+  ],
   "salt_bridges": [],
-  "hydrophobic_contacts": 0,
-  "close_contacts": [],
-  "buried_surface_area": 0.0,
-  "error": "Protein atoms not available"
+  "hydrophobic_contacts": 7,
+  "close_contacts": [
+    "ASN253",
+    "GLU169",
+    "ILE274",
+    "LEU249",
+    "MET177",
+    "MET270",
+    "PHE168"
+  ],
+  "buried_surface_area": 195.0
 }

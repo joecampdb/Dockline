@@ -1,0 +1,33 @@
+{
+  "confidence": -0.81,
+  "rmsd_to_crystal": 0.12,
+  "hbonds": [
+    {
+      "protein_residue": "LEU44",
+      "protein_atom": "O",
+      "distance": 3.21
+    },
+    {
+      "protein_residue": "GLU121",
+      "protein_atom": "O",
+      "distance": 2.55
+    }
+  ],
+  "salt_bridges": [],
+  "hydrophobic_contacts": 9,
+  "close_contacts": [
+    "ALA65",
+    "ARG122",
+    "GLU121",
+    "GLY45",
+    "ILE104",
+    "ILE185",
+    "LEU120",
+    "LEU174",
+    "LEU44",
+    "PHE49",
+    "PRO123",
+    "VAL126"
+  ],
+  "buried_surface_area": 255.0
+}

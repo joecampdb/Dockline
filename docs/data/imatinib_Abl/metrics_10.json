@@ -1,0 +1,31 @@
+{
+  "confidence": -1.38,
+  "rmsd_to_crystal": 1.91,
+  "hbonds": [
+    {
+      "protein_residue": "ALA337",
+      "protein_atom": "O",
+      "distance": 2.56
+    }
+  ],
+  "salt_bridges": [],
+  "hydrophobic_contacts": 23,
+  "close_contacts": [
+    "ALA337",
+    "ALA433",
+    "ARG332",
+    "CYS464",
+    "GLN498",
+    "GLU462",
+    "GLY463",
+    "LEU340",
+    "LEU341",
+    "MET437",
+    "PRO465",
+    "THR434",
+    "TYR435",
+    "VAL338",
+    "VAL468"
+  ],
+  "buried_surface_area": 540.0
+}

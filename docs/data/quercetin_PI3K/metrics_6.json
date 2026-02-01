@@ -1,0 +1,30 @@
+{
+  "confidence": -0.9,
+  "rmsd_to_crystal": 1.49,
+  "hbonds": [
+    {
+      "protein_residue": "ALA885",
+      "protein_atom": "O",
+      "distance": 2.68
+    },
+    {
+      "protein_residue": "GLU880",
+      "protein_atom": "O",
+      "distance": 3.2
+    }
+  ],
+  "salt_bridges": [],
+  "hydrophobic_contacts": 11,
+  "close_contacts": [
+    "ALA885",
+    "GLU880",
+    "ILE879",
+    "ILE881",
+    "ILE963",
+    "MET953",
+    "TRP812",
+    "TYR867",
+    "VAL882"
+  ],
+  "buried_surface_area": 315.0
+}

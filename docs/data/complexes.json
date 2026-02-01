@@ -14,5 +14,69 @@
     "ligand": "caffeine",
     "color": "#3b82f6",
     "num_poses": 10
+  },
+  {
+    "name": "imatinib_Abl",
+    "label": "c-Abl Kinase (2HYY)",
+    "pdb_id": "2HYY",
+    "ligand": "imatinib",
+    "color": "#f97316",
+    "num_poses": 10
+  },
+  {
+    "name": "imatinib_cKIT",
+    "label": "c-KIT Kinase (1T46)",
+    "pdb_id": "1T46",
+    "ligand": "imatinib",
+    "color": "#f97316",
+    "num_poses": 10
+  },
+  {
+    "name": "quercetin_PI3K",
+    "label": "PI3K gamma (1E8W)",
+    "pdb_id": "1E8W",
+    "ligand": "quercetin",
+    "color": "#22c55e",
+    "num_poses": 10
+  },
+  {
+    "name": "quercetin_Pim1",
+    "label": "Pim1 Kinase (2O3P)",
+    "pdb_id": "2O3P",
+    "ligand": "quercetin",
+    "color": "#22c55e",
+    "num_poses": 10
+  },
+  {
+    "name": "biotin_streptavidin",
+    "label": "Streptavidin (1STP)",
+    "pdb_id": "1STP",
+    "ligand": "biotin",
+    "color": "#ec4899",
+    "num_poses": 10
+  },
+  {
+    "name": "serotonin_5HT1A",
+    "label": "5-HT1A Receptor (7E2X)",
+    "pdb_id": "7E2X",
+    "ligand": "serotonin",
+    "color": "#8b5cf6",
+    "num_poses": 10
+  },
+  {
+    "name": "serotonin_5HT2A",
+    "label": "5-HT2A Receptor (6WHA)",
+    "pdb_id": "6WHA",
+    "ligand": "serotonin",
+    "color": "#8b5cf6",
+    "num_poses": 10
+  },
+  {
+    "name": "serotonin_5HT2B",
+    "label": "5-HT2B Receptor (4IB4)",
+    "pdb_id": "4IB4",
+    "ligand": "serotonin",
+    "color": "#8b5cf6",
+    "num_poses": 10
   }
 ]

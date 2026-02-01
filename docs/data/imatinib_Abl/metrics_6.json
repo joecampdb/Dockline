@@ -1,0 +1,48 @@
+{
+  "confidence": -0.43,
+  "rmsd_to_crystal": 0.96,
+  "hbonds": [
+    {
+      "protein_residue": "GLU286",
+      "protein_atom": "OE2",
+      "distance": 2.48
+    },
+    {
+      "protein_residue": "ASP381",
+      "protein_atom": "O",
+      "distance": 3.46
+    },
+    {
+      "protein_residue": "ILE360",
+      "protein_atom": "O",
+      "distance": 3.04
+    }
+  ],
+  "salt_bridges": [
+    {
+      "residue": "GLU286",
+      "distance": 2.48
+    }
+  ],
+  "hydrophobic_contacts": 24,
+  "close_contacts": [
+    "ASP381",
+    "GLU286",
+    "GLY321",
+    "HIS361",
+    "ILE293",
+    "ILE313",
+    "ILE360",
+    "LEU370",
+    "LYS271",
+    "MET290",
+    "MET318",
+    "PHE382",
+    "THR315",
+    "TYR253",
+    "VAL256",
+    "VAL289",
+    "VAL299"
+  ],
+  "buried_surface_area": 525.0
+}

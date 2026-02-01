@@ -1,13 +1,28 @@
 [
   {
     "confidence": 0.33,
-    "rmsd_to_crystal": null,
-    "hbonds": [],
+    "rmsd_to_crystal": 0.09,
+    "hbonds": [
+      {
+        "protein_residue": "ASN253",
+        "protein_atom": "ND2",
+        "distance": 3.19
+      }
+    ],
     "salt_bridges": [],
-    "hydrophobic_contacts": 0,
-    "close_contacts": [],
-    "buried_surface_area": 0.0,
-    "error": "Protein atoms not available",
+    "hydrophobic_contacts": 8,
+    "close_contacts": [
+      "ASN253",
+      "GLU169",
+      "ILE274",
+      "LEU249",
+      "LEU85",
+      "MET177",
+      "PHE168",
+      "TRP246",
+      "VAL84"
+    ],
+    "buried_surface_area": 210.0,
     "complex_name": "caffeine_A2A",
     "label": "Adenosine A2A (5MZP)",
     "ligand": "caffeine",
@@ -16,15 +31,315 @@
   {
     "confidence": -0.31,
     "rmsd_to_crystal": null,
+    "hbonds": [
+      {
+        "protein_residue": "ASN1359",
+        "protein_atom": "OD1",
+        "distance": 2.55
+      },
+      {
+        "protein_residue": "ASN1359",
+        "protein_atom": "ND2",
+        "distance": 2.68
+      }
+    ],
+    "salt_bridges": [],
+    "hydrophobic_contacts": 8,
+    "close_contacts": [
+      "ASN1359",
+      "HIS1383",
+      "LEU1355",
+      "MET1285",
+      "PHE1276",
+      "TRP1352"
+    ],
+    "buried_surface_area": 195.0,
+    "complex_name": "caffeine_A1",
+    "label": "Adenosine A1 (5N2S)",
+    "ligand": "caffeine",
+    "color": "#3b82f6"
+  },
+  {
+    "confidence": -0.17,
+    "rmsd_to_crystal": 0.59,
+    "hbonds": [
+      {
+        "protein_residue": "GLU286",
+        "protein_atom": "OE2",
+        "distance": 3.08
+      },
+      {
+        "protein_residue": "ASP381",
+        "protein_atom": "N",
+        "distance": 3.17
+      },
+      {
+        "protein_residue": "ASP381",
+        "protein_atom": "O",
+        "distance": 2.95
+      },
+      {
+        "protein_residue": "ILE360",
+        "protein_atom": "O",
+        "distance": 3.47
+      },
+      {
+        "protein_residue": "THR315",
+        "protein_atom": "OG1",
+        "distance": 3.23
+      },
+      {
+        "protein_residue": "MET318",
+        "protein_atom": "N",
+        "distance": 2.96
+      }
+    ],
+    "salt_bridges": [
+      {
+        "residue": "GLU286",
+        "distance": 3.08
+      }
+    ],
+    "hydrophobic_contacts": 26,
+    "close_contacts": [
+      "ALA380",
+      "ASP381",
+      "GLU286",
+      "GLY321",
+      "HIS361",
+      "ILE293",
+      "ILE313",
+      "ILE360",
+      "LEU248",
+      "LEU370",
+      "LYS271",
+      "MET290",
+      "MET318",
+      "PHE317",
+      "PHE382",
+      "THR315",
+      "TYR253",
+      "VAL256",
+      "VAL289",
+      "VAL299"
+    ],
+    "buried_surface_area": 555.0,
+    "complex_name": "imatinib_Abl",
+    "label": "c-Abl Kinase (2HYY)",
+    "ligand": "imatinib",
+    "color": "#f97316"
+  },
+  {
+    "confidence": -0.01,
+    "rmsd_to_crystal": 0.48,
+    "hbonds": [
+      {
+        "protein_residue": "GLU640",
+        "protein_atom": "OE1",
+        "distance": 2.68
+      },
+      {
+        "protein_residue": "ASP810",
+        "protein_atom": "N",
+        "distance": 3.14
+      },
+      {
+        "protein_residue": "ILE789",
+        "protein_atom": "O",
+        "distance": 3.11
+      },
+      {
+        "protein_residue": "THR670",
+        "protein_atom": "OG1",
+        "distance": 3.26
+      },
+      {
+        "protein_residue": "CYS673",
+        "protein_atom": "N",
+        "distance": 3.22
+      }
+    ],
+    "salt_bridges": [
+      {
+        "residue": "GLU640",
+        "distance": 2.68
+      }
+    ],
+    "hydrophobic_contacts": 23,
+    "close_contacts": [
+      "ALA621",
+      "ASP810",
+      "CYS673",
+      "CYS809",
+      "GLU640",
+      "HIS790",
+      "ILE789",
+      "LEU595",
+      "LEU644",
+      "LEU799",
+      "LYS623",
+      "PHE811",
+      "THR670",
+      "TYR672",
+      "VAL603",
+      "VAL622",
+      "VAL643",
+      "VAL668"
+    ],
+    "buried_surface_area": 495.0,
+    "complex_name": "imatinib_cKIT",
+    "label": "c-KIT Kinase (1T46)",
+    "ligand": "imatinib",
+    "color": "#f97316"
+  },
+  {
+    "confidence": 0.04,
+    "rmsd_to_crystal": 1.49,
+    "hbonds": [
+      {
+        "protein_residue": "ASP841",
+        "protein_atom": "OD2",
+        "distance": 3.26
+      },
+      {
+        "protein_residue": "TYR867",
+        "protein_atom": "OH",
+        "distance": 2.75
+      },
+      {
+        "protein_residue": "ASP964",
+        "protein_atom": "N",
+        "distance": 3.38
+      },
+      {
+        "protein_residue": "ASP964",
+        "protein_atom": "OD1",
+        "distance": 3.36
+      },
+      {
+        "protein_residue": "VAL882",
+        "protein_atom": "O",
+        "distance": 1.93
+      }
+    ],
+    "salt_bridges": [],
+    "hydrophobic_contacts": 13,
+    "close_contacts": [
+      "ALA885",
+      "ASP841",
+      "ASP964",
+      "ILE879",
+      "ILE881",
+      "ILE963",
+      "LYS833",
+      "LYS883",
+      "MET953",
+      "TRP812",
+      "TYR867",
+      "VAL882"
+    ],
+    "buried_surface_area": 315.0,
+    "complex_name": "quercetin_PI3K",
+    "label": "PI3K gamma (1E8W)",
+    "ligand": "quercetin",
+    "color": "#22c55e"
+  },
+  {
+    "confidence": 0.08,
+    "rmsd_to_crystal": 0.12,
+    "hbonds": [
+      {
+        "protein_residue": "ASP186",
+        "protein_atom": "N",
+        "distance": 3.42
+      },
+      {
+        "protein_residue": "LYS67",
+        "protein_atom": "NZ",
+        "distance": 2.62
+      },
+      {
+        "protein_residue": "ASP186",
+        "protein_atom": "OD1",
+        "distance": 3.18
+      }
+    ],
+    "salt_bridges": [],
+    "hydrophobic_contacts": 15,
+    "close_contacts": [
+      "ALA65",
+      "ARG122",
+      "ASP186",
+      "GLU121",
+      "ILE185",
+      "LEU120",
+      "LEU174",
+      "LEU44",
+      "LYS67",
+      "PHE49",
+      "PRO123",
+      "VAL126"
+    ],
+    "buried_surface_area": 330.0,
+    "complex_name": "quercetin_Pim1",
+    "label": "Pim1 Kinase (2O3P)",
+    "ligand": "quercetin",
+    "color": "#22c55e"
+  },
+  {
+    "confidence": 0.23,
+    "rmsd_to_crystal": null,
     "hbonds": [],
     "salt_bridges": [],
     "hydrophobic_contacts": 0,
     "close_contacts": [],
     "buried_surface_area": 0.0,
     "error": "Protein atoms not available",
-    "complex_name": "caffeine_A1",
-    "label": "Adenosine A1 (5N2S)",
-    "ligand": "caffeine",
-    "color": "#3b82f6"
+    "complex_name": "biotin_streptavidin",
+    "label": "Streptavidin (1STP)",
+    "ligand": "biotin",
+    "color": "#ec4899"
+  },
+  {
+    "confidence": -0.38,
+    "rmsd_to_crystal": null,
+    "hbonds": [],
+    "salt_bridges": [],
+    "hydrophobic_contacts": 0,
+    "close_contacts": [],
+    "buried_surface_area": 0.0,
+    "error": "Protein atoms not available",
+    "complex_name": "serotonin_5HT1A",
+    "label": "5-HT1A Receptor (7E2X)",
+    "ligand": "serotonin",
+    "color": "#8b5cf6"
+  },
+  {
+    "confidence": 0.42,
+    "rmsd_to_crystal": null,
+    "hbonds": [],
+    "salt_bridges": [],
+    "hydrophobic_contacts": 0,
+    "close_contacts": [],
+    "buried_surface_area": 0.0,
+    "error": "Protein atoms not available",
+    "complex_name": "serotonin_5HT2A",
+    "label": "5-HT2A Receptor (6WHA)",
+    "ligand": "serotonin",
+    "color": "#8b5cf6"
+  },
+  {
+    "confidence": 0.26,
+    "rmsd_to_crystal": null,
+    "hbonds": [],
+    "salt_bridges": [],
+    "hydrophobic_contacts": 0,
+    "close_contacts": [],
+    "buried_surface_area": 0.0,
+    "error": "Protein atoms not available",
+    "complex_name": "serotonin_5HT2B",
+    "label": "5-HT2B Receptor (4IB4)",
+    "ligand": "serotonin",
+    "color": "#8b5cf6"
   }
 ]

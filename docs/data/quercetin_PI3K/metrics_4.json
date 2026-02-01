@@ -1,0 +1,33 @@
+{
+  "confidence": -0.49,
+  "rmsd_to_crystal": 1.49,
+  "hbonds": [
+    {
+      "protein_residue": "LYS890",
+      "protein_atom": "NZ",
+      "distance": 2.11
+    },
+    {
+      "protein_residue": "GLU880",
+      "protein_atom": "O",
+      "distance": 2.8
+    },
+    {
+      "protein_residue": "VAL882",
+      "protein_atom": "N",
+      "distance": 2.42
+    }
+  ],
+  "salt_bridges": [],
+  "hydrophobic_contacts": 9,
+  "close_contacts": [
+    "GLU880",
+    "ILE879",
+    "ILE881",
+    "ILE963",
+    "LYS890",
+    "MET953",
+    "VAL882"
+  ],
+  "buried_surface_area": 270.0
+}

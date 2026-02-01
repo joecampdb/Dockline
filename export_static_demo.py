@@ -76,6 +76,36 @@ DEMO_COMPLEXES = {
         "ligand": "quercetin",
         "color": "#22c55e",
     },
+    # Biotin targets (Pink)
+    "biotin_streptavidin": {
+        "label": "Streptavidin (1STP)",
+        "pdb_id": "1STP",
+        "pdb_file": "biotin_streptavidin_clean.pdb",
+        "ligand": "biotin",
+        "color": "#ec4899",
+    },
+    # Serotonin targets (Purple)
+    "serotonin_5HT1A": {
+        "label": "5-HT1A Receptor (7E2X)",
+        "pdb_id": "7E2X",
+        "pdb_file": "serotonin_5HT1A_clean.pdb",
+        "ligand": "serotonin",
+        "color": "#8b5cf6",
+    },
+    "serotonin_5HT2A": {
+        "label": "5-HT2A Receptor (6WHA)",
+        "pdb_id": "6WHA",
+        "pdb_file": "serotonin_5HT2A_clean.pdb",
+        "ligand": "serotonin",
+        "color": "#8b5cf6",
+    },
+    "serotonin_5HT2B": {
+        "label": "5-HT2B Receptor (4IB4)",
+        "pdb_id": "4IB4",
+        "pdb_file": "serotonin_5HT2B_clean.pdb",
+        "ligand": "serotonin",
+        "color": "#8b5cf6",
+    },
 }
 
 
