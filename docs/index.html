@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dockline - Interactive Molecular Docking Viewer</title>
-  <meta name="description" content="Interactive visualization of DiffDock molecular docking results. Multi-target docking for caffeine, imatinib, and quercetin.">
+  <meta name="description" content="Interactive visualization of DiffDock molecular docking results. Multi-target docking for caffeine, imatinib, quercetin, biotin, and serotonin.">
 
   <!-- Bootstrap 5.3 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -56,6 +56,8 @@
               <span class="badge" style="background-color: #3b82f6;">Caffeine</span>
               <span class="badge" style="background-color: #f97316;">Imatinib</span>
               <span class="badge" style="background-color: #22c55e;">Quercetin</span>
+              <span class="badge" style="background-color: #ec4899;">Biotin</span>
+              <span class="badge" style="background-color: #8b5cf6;">Serotonin</span>
             </div>
           </div>
         </div>
@@ -103,6 +105,8 @@
               <li><strong>Caffeine</strong> - Adenosine receptor antagonist</li>
               <li><strong>Imatinib</strong> - Tyrosine kinase inhibitor</li>
               <li><strong>Quercetin</strong> - Natural flavonoid kinase inhibitor</li>
+              <li><strong>Biotin</strong> - Vitamin binding to streptavidin</li>
+              <li><strong>Serotonin</strong> - Neurotransmitter at 5-HT receptors</li>
             </ul>
             <p class="mb-0">
               Docking performed with <a href="https://github.com/gcorso/DiffDock" target="_blank">DiffDock</a>.
@@ -135,10 +139,12 @@
                 <i class="bi bi-bezier2 display-1 text-muted"></i>
                 <h4 class="mt-3">Welcome to Dockline</h4>
                 <p class="text-muted">Select a complex from the dropdown to view docking poses.</p>
-                <div class="d-flex justify-content-center gap-2 mt-3">
+                <div class="d-flex justify-content-center flex-wrap gap-2 mt-3">
                   <span class="badge fs-6" style="background-color: #3b82f6;">Caffeine</span>
                   <span class="badge fs-6" style="background-color: #f97316;">Imatinib</span>
                   <span class="badge fs-6" style="background-color: #22c55e;">Quercetin</span>
+                  <span class="badge fs-6" style="background-color: #ec4899;">Biotin</span>
+                  <span class="badge fs-6" style="background-color: #8b5cf6;">Serotonin</span>
                 </div>
               </div>
             </div>
